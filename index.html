@@ -17,11 +17,26 @@
 				<img src="img/afrojack.jpg" alt="AfroJack" />
 			</div>
 			<h2 id="title">Take Over Control</h2>
-			<h3 title="artist">AfroJack ft Eva Simmons</h3>
-			<audio
-				src="music/01 Take Over Control (Radio Edit) [feat. Eva Simons].m4a"
-				controls
-			></audio>
+			<h3 id="artist">AfroJack ft Eva Simmons</h3>
+			<audio src="music/afrojack.m4a"></audio>
+			<div class="progress-container" id="progress-container">
+				<div class="progress" id="progress">
+					<div class="duration-wrapper">
+						<span id="current-time">0:00</span>
+						<span id="duration">3:41</span>
+					</div>
+				</div>
+				<!-- controls -->
+				<div class="player-controls">
+					<i class="fas fa-duotone fa-backward" id="prev" title="Previous"></i>
+					<i
+						class="fas fa-duotone fa-play main-button"
+						id="play"
+						title="Play"
+					></i>
+					<i class="fas fa-duotone fa-forward" id="next" title="Next"></i>
+				</div>
+			</div>
 		</div>
 		<!-- Script -->
 		<script src="script.js"></script>
